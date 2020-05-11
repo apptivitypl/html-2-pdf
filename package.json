@@ -3,7 +3,6 @@
   "version": "0.1.1",
   "description": "HTML to PDF converter",
   "main": "lib/index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
@@ -38,5 +37,12 @@
   "dependencies": {
     "@types/puppeteer": "^2.0.1",
     "puppeteer": "^3.0.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

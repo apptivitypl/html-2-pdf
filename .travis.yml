@@ -13,6 +13,6 @@ deploy:
       branch: master
   - provider: npm
     email: sonquer@o2.pl
-    api_key: $GITHUB_TOKEN
+    api_key: $NPM_TOKEN
     on:
       branch: master
