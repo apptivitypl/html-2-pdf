@@ -1,13 +1,11 @@
-os:
-- linux
-- osx
 language: node_js
 node_js:
-- '12'
+  - '12'
 cache:
   directories:
     - node_modules
 before_deploy:
+  - "npm run test"
   - "npm run build"
 deploy:
   provider: pages
