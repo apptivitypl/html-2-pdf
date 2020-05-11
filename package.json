@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "HTML to PDF converter",
   "main": "lib/index.js",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@bluewavesolutions/html-2-pdf" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
