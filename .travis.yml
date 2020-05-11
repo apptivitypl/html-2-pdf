@@ -8,17 +8,11 @@ before_deploy:
   - "npm run build"
 deploy:
   - provider: pages
-    skip_cleanup: true
     github_token: $GITHUB_TOKEN
-    keep_history: true
     on:
       branch: master
   - provider: npm
     email: sonquer@o2.pl
-    edge: true
-    registry: https://npm.pkg.github.com/@bluewavesolutions/html-2-pdf
-    api_key:
-        secure: $GITHUB_TOKEN
-    skip_cleanup: true
+    api_key: $GITHUB_TOKEN
     on:
       branch: master
