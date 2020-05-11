@@ -33,29 +33,30 @@ try {
 ---
 
 ## Html2Pdf
-##### constructor
 
-Name: launchOptions
+### constructor
+
+Name: `launchOptions`
 Type: [`puppeteer.LaunchOptions`](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions)
 Default value: `null`
 
-##### convertToFile
+### convertToFile
 
-Name: inputHtmlPath
+Name: `inputHtmlPath`
 Type: `String`
 
-Name: outputPdfPath
+Name: `outputPdfPath`
 Type: `String`
 
-Name: options
+Name: `options`
 Type: [`puppeteer.PDFOptions`](https://github.com/puppeteer/puppeteer/blob/master/docs/api.md#pagepdfoptions)
 Default value: `null`
 
-##### convertToBuffer
+### convertToBuffer
 
-Name: content
+Name: `content`
 Type: `String`
 
-Name: options
+Name: `options`
 Type: [`puppeteer.PDFOptions`](https://github.com/puppeteer/puppeteer/blob/master/docs/api.md#pagepdfoptions)
 Default value: `null`
