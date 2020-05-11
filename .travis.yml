@@ -2,6 +2,8 @@ os:
 - linux
 - osx
 language: node_js
+node_js:
+- '12'
 deploy:
   provider: pages
   skip_cleanup: true
