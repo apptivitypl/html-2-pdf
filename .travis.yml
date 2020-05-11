@@ -16,7 +16,7 @@ deploy:
   - provider: npm
     email: sonquer@o2.pl
     edge: true
-    registry: https://npm.pkg.github.com/
+    registry: https://npm.pkg.github.com/@bluewavesolutions/html-2-pdf
     api_key:
         secure: $GITHUB_TOKEN
     skip_cleanup: true
