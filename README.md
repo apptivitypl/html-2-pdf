@@ -2,7 +2,7 @@
 
 > Node module that converts HTML to PDF.
 
-[![Build Status](https://travis-ci.org/bluewavesolutions/html-2-pdf.svg?branch=master)](https://travis-ci.org/bluewavesolutions/html-2-pdf)
+[![Build Status](https://travis-ci.org/bluewavesolutions/html-2-pdf.svg?branch=master)](https://travis-ci.org/bluewavesolutions/html-2-pdf) [![CodeFactor](https://www.codefactor.io/repository/github/bluewavesolutions/html-2-pdf/badge)](https://www.codefactor.io/repository/github/bluewavesolutions/html-2-pdf)
 
 ---
 
