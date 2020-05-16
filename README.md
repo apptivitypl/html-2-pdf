@@ -6,7 +6,7 @@
 
 ---
 
-### v0.1.1
+### v0.1.2
 Project initialization.
 
 ---
@@ -14,7 +14,7 @@ Project initialization.
 ### Example usage
 
 ```typescript
-import { Html2Pdf } from 'html-2-pdf';
+import { Html2Pdf } from '@bluewavesolutions/html-2-pdf';
 
 const execute = async () => {
     let html2Pdf = new Html2Pdf();
