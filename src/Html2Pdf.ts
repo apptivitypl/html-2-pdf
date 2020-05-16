@@ -8,8 +8,8 @@ export default class Html2Pdf {
     }
 
     public async convertToFile(inputHtmlPath: string, outputPdfPath: string, options?: puppeteer.PDFOptions) {
-        let inputData = await this.readFileAsync(inputHtmlPath);
-        let buffer = await this.convertToBuffer(inputData, options);
+        const inputData = await this.readFileAsync(inputHtmlPath);
+        const buffer = await this.convertToBuffer(inputData, options);
         await this.writeFileAsync(outputPdfPath, buffer);
     }
 
